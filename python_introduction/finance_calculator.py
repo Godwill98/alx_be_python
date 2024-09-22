@@ -1,11 +1,11 @@
 
 #PROMPT THE USER TO ENTER THEIR INCOME
 
-monthly_income = float(input("Please enter your monthly income: "))
+monthly_income = float(input("Enter your monthly income: "))
 
 ##PROMPT THE USER TO ENTER THEIR EXPENSES
 
-monthly_expenses = float(input("Please enter your monthly expenses: "))
+monthly_expenses = float(input("Enter your monthly expenses: "))
 
 
 ##CALCULATE THE MONTHLY SAVINGS
