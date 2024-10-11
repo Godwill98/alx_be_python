@@ -10,7 +10,7 @@ book1 = Book("Book: Pride and Prejudice", "Jane Austen")
 print (book1)
 
 
-class Ebook(Book):
+class EBook(Book):
     def __init__(self,title,author,file_size):
         super().__init__(title,author)
         self.file_size = file_size
@@ -34,7 +34,7 @@ class Library:
          if isinstance(book, Book):
             self.books.append(book) 
 
-         if isinstance(book, Ebook):
+         if isinstance(book, EBook):
             self.books.append(book) 
 
          elif isinstance(book, PrintBook):
