@@ -7,7 +7,7 @@ def main():
     # Create instances of each type of book
     classic_book = Book("Pride and Prejudice", "Jane Austen")
     digital_novel = EBook("Snow Crash", "Neal Stephenson", 500)
-    paper_novel = PrintBook("The Catcher in the Rye", "J.D. Salinger", 234)
+    paper_novel = PrintBook("The Catcher in the Rye", "J.D. Salinger", 235)
 
     # Add books to the library
     my_library.add_book(classic_book)
@@ -15,6 +15,7 @@ def main():
     my_library.add_book(paper_novel)
 
     # List all books in the library
+    my_library.list_books()
    
 
 if __name__ == "__main__":
